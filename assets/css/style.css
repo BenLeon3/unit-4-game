@@ -1,0 +1,37 @@
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+.row-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+ #title {
+     background: orange;
+     color: white;
+ }
+
+ #rules {
+    background-color: bisque;
+    color: green;
+}
+
+#randomNumber {
+    background: mediumseagreen;
+
+}
+
+#scoretitle {
+    background: teal;
+}
+
+#score {
+    background: teal;
+}
