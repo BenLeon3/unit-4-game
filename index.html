@@ -21,61 +21,68 @@
 </head>
 <body>
 
-<div class="container-fluid" style="background-image: url(assets/images/what-the-hex.png); 1px solid #dddddd; padding-top: 40px; padding-bottom: 20px;">
-    <div class="container-fluid">
+<div class="container-fluid" style="background-image: url(assets/images/what-the-hex.png)">
+    <div class="container-fluid" id="title-background">
         <div class="row">
             <div class="col-md-3 col-lg-3" id="title">	
-                <h1>CrystalsCollector!</h1>
+                <h1>Crystal Collector!</h1>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid" id="rules">
+    <div class="container-fluid" id="rules-background">
         <div class="row-lg-3">
-            <div class="col-md-4 col-lg-4">	
+            <div class="col-md-4 col-lg-4" id="rules">	
                 <p>You will be given a random number at the start of the game.<p>
-                    <br>
+        
                 <p>There are four crystals below. By clicking on a crystsl you will add a specific amount of points to your total score.</p>
-                    <br>
+                    
                 <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
-                    <br>
+                    
                 <p>The value of each crystal is hidden from you until you click on it.</p>
-                    <br>
+
                 <p>Each time when the game starts, the game will change the values of each crystal.</p>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="random-number-background">
         <div class="row">
-            <div class="col-md-2 col-lg-2">	
+            <div class="col-md-2 col-lg-2" id="random-box">	
                 <span id= "randomNumber"></span>
             </div>
-            <div class="col-md-2 col-lg-2">
+            <div class="col-md-1 col-lg-1" id="win-loss-box">
                 <span id="numWin-Losses">
                     <p id="win-message"></p>
                     <p id="loose-message"></p>
                     <p id="wins">Wins: </p>
-                    <br>
                     <p id="losses">Losses: </p>
                 </span>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="diamond-box">
         <div class="row">
-            <div class="col-md-2 col-lg-2">	
-                <span type="button" class="CB" id="crystal1" style="background-image: url(assets/images/diamond.png); width:100px; height:100px;"></span>
+            <div class="col-md-1 col-lg-1" id="crystal-1">
+                <div type="button" class="CB" id="crystal1" style="width: 100px; height:100px;">
+                    <img src="assets/images/diamond.png" style="width:100px; height:100px;">
+                </div>
             </div>
-            <div class="col-md-2 col-lg-2">	
-                <span type="button" class="CB" id="crystal2" style="background-image: url(assets/images/ruby.png); width:100px; height:100px;"></span>
+            <div class="col-md-1 col-lg-1">	
+                <div type="button" class="CB" id="crystal2" style="width:100px; height:100px;">
+                    <img src="assets/images/ruby.png" style="width:100px; height:100px;">
+                </div>
             </div>
-            <div class="col-md-2 col-lg-2">	
-                <span type="button" class="CB" id="crystal3" style="background-image: url(assets/images/yellowdiamond.png); width:100px; height:100px"></span>
+            <div class="col-md-1 col-lg-1">	
+                <div type="button" class="CB" id="crystal3" style="width:100px; height:100px">
+                    <img src="assets/images/yellowdiamond.png" style="width:100px; height:100px;">
+                </div>
             </div>
-            <div class="col-md-2 col-lg-2">	
-                <span type="button" class="CB" id="crystal4" style="background-image: url(assets/images/diamond2.png); width:100px; height:100px"></span>
+            <div class="col-md-1 col-lg-1">	
+                <div type="button" class="CB" id="crystal4" style="width:100px; height:100px">
+                    <img src="assets/images/triangle-diamond.png" style="width:100px; height:100px;">
+                </div>
             </div>
         </div>
     </div>
@@ -88,9 +95,9 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="score-background">
         <div class="row">
-            <div class="col-md-3 col-lg-3">
+            <div class="col-md-2 col-lg-2" id="score-box">
                 <span id="score"></span>
             </div>
         </div>

@@ -1,37 +1,83 @@
 
 .container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right:0;
     padding-left:0;
     margin-right:auto;
     margin-left:auto
+}
+
+ #title-background {
+     padding-top: 0px;
+     padding-bottom: 0px;
  }
+
+#rules-background, #random-number-background, #diamond-box {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+#score-background {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    
+}
+
+#score-box {
+    margin-left: 15px;
+    background: teal;
+    padding-bottom: 50px;
+}
+
+#random-box {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 90px;
+    margin-left: 15px;
+    font-size: 40px;
+    background: mediumseagreen;
+}
 
 .row-fluid {
     padding-right:0;
     padding-left:0;
     margin-right:auto;
-    margin-left:auto
+    margin-left:auto;
  }
 
  #title {
+    margin-right: 10px;
+     padding: 20px;
      background: orange;
      color: white;
+ }
+
+ #win-loss-box {
+     background: turquoise;
+     margin-left: 10px;
  }
 
  #rules {
     background-color: bisque;
     color: green;
-}
-
-#randomNumber {
-    background: mediumseagreen;
-
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 #scoretitle {
     background: teal;
+    color: white;
+    font-size: 20px;
+    height: 30px;
 }
 
 #score {
-    background: teal;
+    color: white;
+    font-size: 40px;
 }
